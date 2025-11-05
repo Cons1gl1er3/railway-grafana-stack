@@ -1,6 +1,6 @@
 [build]
 builder = "DOCKERFILE"
-dockerfilePath = "grafana/Dockerfile"
+dockerfilePath = "Dockerfile"
 buildContext = "grafana"
 
 [deploy]
