@@ -7,4 +7,3 @@ COPY grafana/datasources /etc/grafana/provisioning/datasources
 
 # copy grafana configuration file
 COPY grafana/grafana.ini /etc/grafana/grafana.ini
-
