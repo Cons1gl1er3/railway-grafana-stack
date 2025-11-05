@@ -1,9 +1,0 @@
-ARG VERSION=11.5.2
-
-FROM grafana/grafana-oss:${VERSION}
-
-# copy the datasources and dashboards
-COPY grafana/datasources /etc/grafana/provisioning/datasources
-
-# copy grafana configuration file
-COPY grafana/grafana.ini /etc/grafana/grafana.ini
